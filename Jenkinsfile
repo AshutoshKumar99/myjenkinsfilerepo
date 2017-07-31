@@ -5,9 +5,9 @@ node('master')
         git 'https://github.com/AshutoshKumar99/repo'
     }
     
-    stage('Build a job')
+    stage('Message Printing')
     {
-        build 'TMSUI'
+        echo 'Hello Blue Ocean,How are you ? '
     }
     
     
